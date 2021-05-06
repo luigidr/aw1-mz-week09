@@ -120,7 +120,7 @@ Request body: An object that represents an exam (Content-Type: `application/json
 }
 ```
 
-Response: `200` (success), `503` (if adding an already existent exam). If the request body is not valid, `422 Unprocessable Entity`.
+Response: `200` (success), `503` (generic error). If the request body is not valid, `422 Unprocessable Entity`.
 
 Response body: _None_
 
